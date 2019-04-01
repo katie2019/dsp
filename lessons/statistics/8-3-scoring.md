@@ -29,9 +29,7 @@ def SimulateGame(lam):
     
     return L
     
-# The following function simulates many games, then uses the
-# number of goals scored as an estimate of the true long-term
-# goal-scoring rate.
+
 
 def Estimate6(lam=2, m=1000000):
 
