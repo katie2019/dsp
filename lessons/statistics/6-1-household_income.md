@@ -14,6 +14,7 @@ def InterpolateSample(df, log_upper=6.0):
 
     returns: NumPy array of log10 household income
     """
+    
     # compute the log10 of the upper bound for each range
     
     df['log_upper'] = np.log10(df.income)
