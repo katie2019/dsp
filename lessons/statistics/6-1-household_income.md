@@ -1,5 +1,7 @@
 [Think Stats Chapter 6 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2007.html#toc60) (household income)
 
+
+
 def InterpolateSample(df, log_upper=6.0):
 
     """Makes a sample of log10 household income.
